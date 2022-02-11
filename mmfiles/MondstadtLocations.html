@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+	<head>
+		<title>Teyvat Map for Dummies</title> 
+
+		<meta charset="UTF-8"> 
+		<meta name="author" content="Lopez, Gabriela Isabel D."> 
+		<meta name="keywords" content="Genshin Impact, Teyvat, Map, Guide"> 
+		<meta name="revised" content="04-11-2021">
+		
+		<link rel="stylesheet" href="text.css"> 
+		<link rel="stylesheet" href="NavBar.css">
+	</head>
+	
+	<body>
+		<section>
+			<h1> Reveal Elements On Scroll </h1>
+		</section>
+		<section>
+			<div class = "container">
+				<h2>Your Title</h2>
+				<div class = "cards">
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<section>
+			<div class = "container">
+				<h2>Your Title</h2>
+				<div class = "cards">
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<section>
+			<div class = "container">
+				<h2>Your Title</h2>
+				<div class = "cards">
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+					<div class = "text-card">
+						<h3> Title </h3>
+						<p> Lorem ipsum shite</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type = "text/javascript">
+		window.addEventListener('scroll', reveal);
+
+		function reveal(){
+			var reveals = document.querySelectorAll('.reveal');
+
+			for(var i = 0; i < reveals.length; i++){
+
+				var windowheight = window.innerHeight;
+				var revealtop = reveals[i].getBoundingClientRect().top;
+				var revealpoint = 150;
+
+				if(revealttop < windowheight - revealpoint){
+					reveals[i].classList.add('active');
+				}
+				else{
+					reveals[i].classList.remove('active');
+				}
+			}
+		}
+		</script>
+	</body>
+</html>	
+

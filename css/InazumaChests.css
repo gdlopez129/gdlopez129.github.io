@@ -1,0 +1,94 @@
+body{
+	background-image:url(../images/INAZUMA2.png);
+	background-repeat: no-repeat;
+	height: 850px;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+	position: center;
+	color:#ffffff;
+	}
+	
+p{
+	text-align: center;
+	}
+
+h1{
+	font-size: 56;
+	margin-left: 100px;
+	}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+	}
+	
+hr{
+    margin-right:100px;
+    margin-left: 100px;
+    color: #ffffff;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	}
+
+		
+img.test{
+	width: 350px;
+	height: 250px;
+	border: 2px solid #ffffff;
+}
+
+article{
+	background: white;
+	color: black;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	padding: 50px;
+	}
+	
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+	}
+
+section.map{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 50px 100px 50px 100px;
+	border: 2px solid #ffffff;
+	background: hsl(21, 100%, 10%, 0.4);
+	}
+	
+section.main{
+	min-height: 100vh;
+	transition-duration: 0.5s;
+	transition-property: background;
+	}
+	
+section.main:hover{
+	background: hsl(21, 100%, 10%, 0.4);
+	border: 2px solid #ffffff;
+	}
+
+		
+section .cards{
+	display: flex;
+	}
+
+section .cards .text-card{
+	margin:20px;
+	padding: 20px;
+	height: 200px;
+	}
+
+
