@@ -1,0 +1,23 @@
+body{
+	background-image:url(../images/Credits.png);
+	background-repeat: no-repeat;
+	height: 850px;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+	position: center;
+	color:#ffffff;
+	}
+
+p{
+	text-align:left;
+	padding-left: 80px;
+	padding-right: 80px;
+	}
+
+header{
+	text-align:left;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+

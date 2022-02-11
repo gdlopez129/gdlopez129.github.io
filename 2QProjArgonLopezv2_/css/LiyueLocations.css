@@ -1,0 +1,65 @@
+body{
+	background-image:url(../images/LIYUE2.png);
+	background-repeat: no-repeat;
+	height: 850px;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+	position: center;
+	color:#ffffff;
+	}
+
+h1{
+	font-size: 56;
+	margin-left: 100px;
+	}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+	}
+	
+hr{
+    margin-right:100px;
+    margin-left: 100px;
+    color: #ffffff;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	}
+
+img.test{
+	width: 400px;
+	height: 250px;
+	border: 2px solid #ffffff;
+}
+
+section{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-duration: 0.5s;
+	transition-property: background;
+    margin-right: 100px;
+    margin-left: 100px;
+	padding: 20px;
+	}
+	
+section:hover{
+	border: 2px solid #ffffff;
+	background: hsl(21, 100%, 10%, 0.5);
+	border: 2px solid #ffffff;
+	}
+
+		
+section .cards{
+	display: flex;
+	}
+
+section .cards .text-card{
+	margin:20px;
+	padding: 20px;
+	height: 200px;
+	}
+
+

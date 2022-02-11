@@ -1,0 +1,70 @@
+/*sir ang weird po ng outline of data if tinanggal ko yung font so ayun po, dinagdag ko na siya */
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap');
+*{
+	margin:0px;
+	padding:50x;
+	box-sizing: border-box;
+	font-family: 'Kiwi Maru', serif;
+	}
+	
+.navbar{
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	}
+	
+.navbar .container{
+	margin: 0px 10px 0px 10px;
+	display: flex;
+	align-items: center;
+	height:70px;
+	}
+	
+	#logo{
+	margin-top:15px;
+	margin-right: 0px;
+	}
+	
+	#logo:hover{
+	opacity:0.5;
+	transition: 0.5s;
+	}
+	
+nav.fixed-nav-bar{
+	display: flex;
+	}
+	
+nav.fixed-nav-bar ul.fixed-nav-bar{
+	display: flex;
+	}
+	
+nav.fixed-nav-bar ul.fixed-nav-bar li{
+	list-style:none;
+	display: inline-block;
+	}
+	
+
+nav.fixed-nav-bar ul.fixed-nav-bar li a.EffectOne{
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 10px;
+	position: relative;
+}
+
+	
+nav.fixed-nav-bar ul.fixed-nav-bar li a.EffectOne:after{
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background: #ffffff;
+	transition: 0.4s;
+	}
+	
+nav.fixed-nav-bar ul.fixed-nav-bar li a.EffectOne:hover:after{
+	width: 100%;
+	}
